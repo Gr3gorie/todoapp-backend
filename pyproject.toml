@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "todoapp-backend"
+version = "0.1.0"
+description = ""
+authors = ["Gregorie <grishagti@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fastapi = "^0.115.2"
+uvicorn = "^0.31.1"
+psycopg2-binary = "^2.9.9"
+passlib = {extras = ["bcrypt"], version = "^1.7.4"}
+sqlalchemy = "^2.0.35"
+python-dotenv = "^1.0.1"
+pydantic = "^2.9.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
